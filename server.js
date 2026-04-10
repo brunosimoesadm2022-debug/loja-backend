@@ -2,7 +2,7 @@
 
 const express = require("express");
 const cors = require("cors");
-const { initializeDatabase, databasePath } = require("./database");
+const { initializeDatabase, databasePath } = require("./database.js");
 const authRoutes = require("./routes/auth");
 const produtosRoutes = require("./routes/produtos");
 const pedidosRoutes = require("./routes/pedidos");
